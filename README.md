@@ -92,24 +92,24 @@
 
 ### 배선 다이어그램
 
-ESP32 ──── 3.3V ────┬──── BH1750 VCC
-│                └──── DS3231 VCC
-│
-├──── GND ─────┬──── BH1750 GND
-│              ├──── DS3231 GND
-│              └──── MOSFET Source
-│
-├──── GPIO21 ──┬──── BH1750 SDA
-│              └──── DS3231 SDA
-│
-├──── GPIO22 ──┬──── BH1750 SCL
-│              └──── DS3231 SCL
-│
-├──── GPIO16 ───── MOSFET Gate
-│
-└──── GPIO17 ───── 상태 LED+ ─── 저항 ─── GND
-5V ─────────────── LED+
-MOSFET Drain ───── LED-
+ESP32 ──── 3.3V ────┬──── BH1750 VCC  
+│                └──── DS3231 VCC  
+│  
+├──── GND ─────┬──── BH1750 GND  
+│              ├──── DS3231 GND  
+│              └──── MOSFET Source  
+│  
+├──── GPIO21 ──┬──── BH1750 SDA  
+│              └──── DS3231 SDA  
+│  
+├──── GPIO22 ──┬──── BH1750 SCL  
+│              └──── DS3231 SCL  
+│  
+├──── GPIO16 ───── MOSFET Gate  
+│  
+└──── GPIO17 ───── 상태 LED+ ─── 저항 ─── GND  
+5V ─────────────── LED+  
+MOSFET Drain ───── LED-  
 
 ## 소프트웨어 설치
 
